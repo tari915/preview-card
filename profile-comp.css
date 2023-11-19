@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: hsl(185, 75%, 39%);
+    font-family: kumbh sans;
+}
+.container{
+    font-family: kumbh sans;
+    flex-direction: column;
+    align-content: center;
+    background: white;
+    width: 300px;
+    margin: 100px auto;
+    max-height: 350px;
+    border-radius: 25px;
+}
+.top2 img{
+    position: absolute;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    margin-top: 180px;
+    margin-left:107px;
+    margin-right: 99px;
+    top: -1px;
+    border: 5px solid white;
+
+}
+.top img{
+    width: 300px;
+    border: 1px ;
+    border-top-left-radius: 9%;
+    border-top-right-radius: 9%;
+}
+.second-para{
+    color: grey;
+}
+.london p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 9px;
+    color: grey;
+    font-size: 14px;
+}
+.contents{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 75px;
+}
+.content-top{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.first-para p{
+    font-style: bold;
+}
+.last{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    align-content: center;
+    margin-top: 25px;
+    margin-bottom: 100px;
+    gap: 40px;
+}
+.p1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.p2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.p3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.p1 .two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.stats1 .p1{
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.stats2 .p2{
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.stats3 .p3{
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.stats1 .followers{
+    color: grey;
+    font-size: 12px;
+}
+.stats2 .likes{
+    color: grey;
+    font-size: 12px;
+}
+.stats3 .photos{
+    color: grey;
+    font-size: 12px;
+}
+.london hr{
+    margin-bottom: 0px;
+    width: 300px;
+}
+.circle-1{
+    height: 900px;
+    width: 900px;
+    border-radius: 50%;
+    background-image: url(./images/bg-pattern-top.svg);
+    position: absolute;
+    top: -400px;
+    right: 900px;
+}
+.circle-2{
+    height: 900px;
+    width: 900px;
+    border-radius: 60%;
+    background-image: url(./images/bg-pattern-bottom.svg);
+    position: absolute;
+    top: 300px;
+    bottom: -500px;
+    left:850px ;
+}
